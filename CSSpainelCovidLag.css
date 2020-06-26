@@ -1,0 +1,259 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+}
+
+.containerFull {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 400px;
+    grid-template-rows: 30px 1fr 1fr 1fr 140px;
+    font-family: 'Oswald', sans-serif; 
+}
+
+header {
+    background-color: #000f1a;
+    grid-column: 1/4;
+    border-bottom: solid 3px gray;
+    color: white;
+}
+
+
+.tituloPainel {
+    display: inline-block;
+    height: 30px;
+}
+
+#textoPainel {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.logo img {
+    height: 20px;
+    width: 30px;
+    position: absolute;
+}
+.logo {
+    display: inline-block;
+    padding: 5px;
+    height: 20px;
+    width: 30px;
+}
+
+.confirmados {
+    background-color: #000f1a;
+    margin-left: 5px;
+    border: solid 3px gray;
+    text-align: center;
+    color: red;
+}
+.confirmados ul {
+    margin: 0;
+    padding: 0;
+}
+#totalConf {
+    float: left;
+    width: 120px;
+}
+#umDiaConf {
+    float:right;
+    margin-right: 40px;
+    width: 120px;
+}
+#textoNumConf {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#porceConf {
+    float: right;
+    margin-left: 15px;
+    width: 120px;
+    height: 157px;
+}
+#numConfirmados {
+    height: 100%;
+    width: 100%;
+}
+#textoConfi {
+    font-size: 44px;
+    text-shadow: -1px 5px 1px black;
+}
+
+
+.recuperados {
+    text-align: center;
+    background-color: #000f1a;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 5px;
+    border: solid 3px gray;
+    color: lime;
+}
+.recuperados ul {
+    margin: 0;
+    padding: 0;
+}
+#totalRecup {
+    float: left;
+    width: 120px;
+}
+#umDiaRecup {
+    float:right;
+    margin-right: 40px;
+    width: 120px;
+}
+#textoNumRecu {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#porceRecu {
+    float: right;
+    margin-left: 15px;
+    width: 120px;
+    height: 157px;
+}
+#numRecuperados {
+    height: 100%;
+    width: 100%;
+}
+#textoRecup {
+    font-size: 44px; 
+    text-shadow: -1px 5px 1px black;
+}
+
+
+
+.obitos {
+    text-align: center;
+    background-color: #000f1a;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-left: 5px;
+    border: solid 3px gray;
+    color: white;
+}
+.obitos ul {
+    margin: 0;
+    padding: 0;
+}
+#totalObitos {
+    float: left;
+    width: 120px;
+}
+#umDiaObitos {
+    float:right;
+    margin-right: 40px;
+    width: 120px;
+}
+#porceObi {
+    float: right;
+    margin-left: 15px;
+    width: 120px;
+    height: 157px;
+}
+#numTotalDiaObitos {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#numObitos {
+    height: 100%;
+    width: 100%;
+}
+#textoObitos {
+    font-size: 44px;
+    text-shadow: -1px 5px 1px black;
+}
+
+
+
+.graficoLinha {
+
+    grid-column: 2/4;
+    grid-row: 2/4;
+    margin-right: 5px;
+    
+    border: solid 3px grey;
+}
+
+#graficoLinhaCasos {
+    height: 100%;
+    width: 100%;
+}
+
+#graficoBairros {
+    height: 100%;
+    width: 100%;
+}
+
+#graficoLeitos {
+    height: 100%;
+    width: 100%;
+}
+
+.graficoPizzaBairro {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    border: solid 3px grey;
+}
+
+.graficoPizzaLeitos {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    margin-right: 5px;
+    border: solid 3px gray;
+}
+
+h3 {
+    font-size: 35px;
+    text-shadow: -1px 5px 1px black;
+}
+h2 {
+    text-shadow: -1px 5px 1px black;
+}
+
+
+footer {
+    display: inline-block;
+    background-color: #000f1a;
+    grid-column: 1/4;
+    border-top: solid 3px gray;
+    height: 100%;
+    color: white;
+}
+#atualizacao{
+    float: left;
+    font-size: 10px;
+}
+#fonteDados {
+    float: right;
+    font-size: 15px;
+    margin-right: 10px;
+}
+#dadosText {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#meuNome {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#desenAtua {
+    float: left;
+    width: 400px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+p{
+    font-weight: bold;
+}

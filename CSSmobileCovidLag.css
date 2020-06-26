@@ -1,0 +1,222 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.containerFull {
+    display: grid;
+    grid-gap: 5px;
+    height: 100%;
+    width: 50%;
+    grid-template-rows: 20px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+header {
+    background-color: #000f1a;
+    border-bottom: solid 3px gray;
+    color: white;
+}
+.cabecalho {
+    display: inline-block;
+    border-bottom: solid 3px gray;
+    grid-row: 1;
+}
+#textoPainel {
+    font-size: 10px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 3px;
+    color: white;
+}
+.tituloPainel {
+    display: inline-block;
+    height: 15px;
+}
+.logo {
+    display: inline-block;
+    width: 15px;
+}
+.logo img {
+    height: 10px;
+    width: 15px;
+    margin-left: 3px;
+}
+
+.confirmados {
+    background-color: #000f1a;
+    border: solid 3px gray;
+    text-align: center;
+    color: red;
+}
+.confirmados ul {
+    margin: 0;
+    padding: 0;
+}
+#totalConf {
+    float: left;
+    width: 140px;    
+}
+#umDiaConf {
+    float:right;
+    margin-right: 15px;
+    width: 140px;
+}
+#textoNumConf {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#porceConf {
+    float: right;
+    margin-left: 15px;
+    width: 140px;
+    height: 157px;
+}
+#numConfirmados {
+    height: 100%;
+    width: 100%;
+}
+#textoConfi {
+    font-size: 44px;
+    text-shadow: -1px 5px 1px black;
+}
+
+.recuperados {
+    text-align: center;
+    background-color: #000f1a;
+    border: solid 3px gray;
+    color: lime;
+}
+.recuperados ul {
+    margin: 0;
+    padding: 0;
+}
+#totalRecup {
+    float: left;
+    width: 140px;
+}
+#umDiaRecup {
+    float:right;
+    margin-right: 15px;
+    width: 140px;
+}
+#textoNumRecu {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#porceRecu {
+    float: right;
+    margin-left: 15px;
+    width: 140px;
+    height: 157px;
+}
+#numRecuperados {
+    height: 100%;
+    width: 100%;
+}
+#textoRecup {
+    font-size: 44px; 
+    text-shadow: -1px 5px 1px black;
+}
+
+.obitos {
+    text-align: center;
+    background-color: #000f1a;
+    border: solid 3px gray;
+    color: white;
+}
+.obitos ul {
+    margin: 0;
+    padding: 0;
+}
+#totalObitos {
+    float: left;
+    width: 140px; 
+}
+#umDiaObitos {
+    float:right;
+    margin-right: 15px;
+    width: 140px;
+}
+#porceObi {
+    float: right;
+    margin-left: 15px;
+    width: 140px;
+    height: 157px;
+}
+#numObitos {
+    height: 100%;
+    width: 100%;
+}
+#textoObitos {
+    font-size: 44px;
+    text-shadow: -1px 5px 1px black;
+}
+
+.graficoLinha {
+    border: solid 3px grey;
+}
+
+#graficoLinhaCasos {
+    height: 100%;
+    width: 100%;
+}
+
+.graficoPizzaBairro {
+    border: solid 3px grey;
+}
+#graficoBairros {
+    height: 100%;
+    width: 100%;
+}
+
+.graficoPizzaLeitos {
+    border: solid 3px gray;
+}
+#graficoLeitos {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    background-color: #000f1a;
+    border-top: solid 3px gray;
+    height: 100%;
+    color: white;
+}
+#atualizacao{
+    font-size: 10px;
+}
+#fonteDados {
+    font-size: 20px;
+}
+#desenAtua {
+    width: 500px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+#dadosText {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#meuNome {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    text-shadow: -1px 5px 1px black;
+}
+h2 {
+    text-shadow: -1px 5px 1px black;
+}
+p{
+    font-weight: bold;
+}

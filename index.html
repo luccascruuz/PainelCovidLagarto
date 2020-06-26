@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 0px)" href="CSSmobileCovidLag.css">
+    <link rel="stylesheet" media="screen and (min-width: 1350px)" href="CSSpainelCovidLag.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="graficoLinha.js"></script>
+    <script type="text/javascript" src="graficoPizzaBairros.js"></script>
+    <script type="text/javascript" src="graficoPizzaLeitos.js"></script>
+    <title>Painel COVID19 Lagarto-SE</title>
+</head>
+<body>
+    <div class="containerFull">
+        <header class="cabecalho">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Bandeira-de-lagarto-se.jpg" alt="logo">
+            </div>
+
+            <div class="tituloPainel">
+                <h1 id="textoPainel">Painel Lagarto COVID19</h1>    
+            </div>
+        </header>
+        
+        <div class="confirmados">
+            <div id="numConfirmados">
+                <ul>
+                    <h1 id="textoConfi">Confirmados</h1>
+                </ul>
+                <ul id="textoNumConf">
+                    <div id="totalConf">
+                        <h2>Total</h2>
+                        <h3>456</h3>
+                    </div>
+
+                    <div id="porceConf">
+                        <h2>Ativos</h2>
+                        <h3>244</h3>
+                    </div>
+
+                    <div id="umDiaConf">
+                        <h2>24h</h2>
+                        <h3>24</h3>
+                    <div>
+                </ul>
+                
+            </div>
+        </div>
+
+        <div class="recuperados">
+            <div id="numRecuperados">
+                <ul>
+                    <h1 id="textoRecup">Recuperados</h1>
+                </ul>
+                <ul id="textoNumRecu">
+                    <div id="totalRecup">
+                        <h2>Total</h2>
+                        <h3>212</h3>
+                    </div>
+
+                    <div id="porceRecu">
+                        <h2>%</h2>
+                        <h3>46</h3>
+                    </div>
+
+                    <div id="umDiaRecup">
+                        <h2>24h</h2>
+                        <h3>3</h3>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="obitos">
+            <div id="numObitos">
+                <ul>
+                    <h1 id="textoObitos">Óbitos</h1>
+                </ul>
+                <ul id="numTotalDiaObitos">
+                    <div id="totalObitos">
+                        <h2>Total</h2>
+                        <h3>14</h3>
+                    </div>
+
+                    <div id="porceObi">
+                        <h2>%</h2>
+                        <h3>3</h3>
+                    </div>
+
+                    <div id="umDiaObitos">
+                        <h2>24h</h2>
+                        <h3>0</h3>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="graficoLinha">
+            <div id="graficoLinhaCasos"></div>
+        </div>
+        
+        <div class="graficoPizzaBairro">
+            <div id="graficoBairros"></div>
+        </div>
+        
+        <div class="graficoPizzaLeitos">
+            <div id="graficoLeitos"></div>
+        </div>
+        
+        <footer class="rodape">
+
+            <div id="atualizacao">
+                <p>Atualizado em 24/06/2020</p>
+            </div><br><br>
+
+            <div id="desenAtua">
+                <div>
+                    <p>Desenvolvido por: </p>
+                </div>
+    
+                <div>
+                    <a href="https://www.instagram.com/luccascruuz/" id="meuNome">Luccas Ribeiro Cruz</a><br>
+                    <a>luccasribe@gmail.com</a>
+                </div>
+            </div>
+
+            <div id="fonteDados">
+                <div>
+                    <p>Fonte: </p>
+                </div>
+
+                <div>
+                    <a id="dadosText" href="https://www.instagram.com/prefeituradelagarto/">Prefeitura de Lagarto</a><br>
+                    <a id="dadosText" href="https://todoscontraocorona.net.br/">Secretaria da Saúde-SE</a><br>
+                    <a id="dadosText" href="https://covid.saude.gov.br/">Ministério da Saúde</a>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+</body>
+</html>
