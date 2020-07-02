@@ -2,7 +2,6 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0px;
-    background-color: white;
     font-family: 'Oswald', sans-serif; 
 }
 
@@ -10,7 +9,8 @@ html, body {
     display: grid;
     grid-gap: 5px;
     height: 100%;
-    width: 50%;
+    width: 100%;
+    grid-template-columns: 100%;
     grid-template-rows: 20px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -57,23 +57,20 @@ header {
 }
 #totalConf {
     float: left;
-    width: 140px;    
+    width: 33%;    
 }
 #umDiaConf {
     float:right;
-    margin-right: 15px;
-    width: 140px;
+    width: 33%;
+}
+#porceConf {
+    float: right;
+    width: 33%;
 }
 #textoNumConf {
     display: inline-block;
     width: 100%;
     height: 100%;
-}
-#porceConf {
-    float: right;
-    margin-left: 15px;
-    width: 140px;
-    height: 157px;
 }
 #numConfirmados {
     height: 100%;
@@ -96,23 +93,20 @@ header {
 }
 #totalRecup {
     float: left;
-    width: 140px;
+    width: 33%;
 }
 #umDiaRecup {
     float:right;
-    margin-right: 15px;
-    width: 140px;
+    width: 33%;
+}
+#porceRecu {
+    float: right;
+    width: 33%;
 }
 #textoNumRecu {
     display: inline-block;
     width: 100%;
     height: 100%;
-}
-#porceRecu {
-    float: right;
-    margin-left: 15px;
-    width: 140px;
-    height: 157px;
 }
 #numRecuperados {
     height: 100%;
@@ -135,18 +129,15 @@ header {
 }
 #totalObitos {
     float: left;
-    width: 140px; 
+    width: 33%; 
 }
 #umDiaObitos {
     float:right;
-    margin-right: 15px;
-    width: 140px;
+    width: 33%;
 }
 #porceObi {
     float: right;
-    margin-left: 15px;
-    width: 140px;
-    height: 157px;
+    width: 33%;
 }
 #numObitos {
     height: 100%;
@@ -189,15 +180,22 @@ footer {
     color: white;
 }
 #atualizacao{
+    width: 100%;
     font-size: 10px;
+    text-align: center;
 }
 #fonteDados {
     font-size: 20px;
 }
 #desenAtua {
-    width: 500px;
-    margin-left: 5px;
+    width: 100%;
     font-size: 20px;
+}
+#infoMeuNome {
+    text-align: center;
+}
+#infoFonteDados {
+    text-align: center;
 }
 #dadosText {
     text-decoration: none;
