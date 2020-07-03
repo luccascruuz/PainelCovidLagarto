@@ -3,21 +3,21 @@ google.charts.load("current", {packages:["corechart"]});
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Bairro', 'Número de infectados'],
-          ['Centro', 132],
-          ['Povoado Colônia Treze', 78],
-          ['Loiola', 23],
-          ['Exposição', 22],
-          ['Alto da Boa Vista', 18],
-          ['Conjunto Laudelino Freire', 16],
-          ['Ademar de Carvalho', 16],
-          ['Jardim Campo Novo', 15],
-          ['Jenipapo', 14],
-          ['Novo Horizonte', 14],
-          ['Libório', 13],
-          ['Horta', 10],
-          ['Brejo', 10],
-          ['Pratas', 10],
-          ['Outros', 68]
+          ['Centro', 166],
+          ['Povoado Colônia Treze', 94],
+          ['Exposição', 29],
+          ['Loiola', 29],
+          ['Alto da Boa Vista', 21],
+          ['Ademar de Carvalho', 21],
+          ['Conjunto Laudelino Freire', 20],
+          ['Novo Horizonte', 21],
+          ['Jardim Campo Novo', 17],
+          ['Libório', 17],
+          ['Jenipapo', 15],
+          ['Pratas', 12],
+          ['Brejo', 12],
+          ['Horta', 11],
+          ['Outros', 83]
         ]);
 
         var options = {

@@ -11,7 +11,7 @@ html, body {
     width: 100%;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 400px;
-    grid-template-rows: 30px 1fr 1fr 1fr 100px;
+    grid-template-rows: 30px 1fr 1fr 1fr 85px;
     font-family: 'Oswald', sans-serif; 
 }
 
@@ -228,7 +228,7 @@ footer {
 }
 #fonteDados {
     float: left;
-    font-size: 15px;
+    font-size: 12px;
     width: 33%;
     height: 100%;
 }
@@ -237,7 +237,7 @@ footer {
     float: left;
     width: 33%;
     height: 100%;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #dadosText {
