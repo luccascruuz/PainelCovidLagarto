@@ -65,7 +65,8 @@ google.charts.setOnLoadCallback(drawBasic);
             [74, 526],
             [75, 559],
             [76, 565],
-            [77, 568]
+            [77, 568],
+            [78, 631]
           ]);
     
           var options = {
